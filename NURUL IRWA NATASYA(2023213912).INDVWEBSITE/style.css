@@ -1,0 +1,361 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #4d5257;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+    position: relative;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 1em;
+}
+
+.custom-font {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 1em;
+}
+
+.button-boxes {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button-boxes li {
+    margin: 0 1em;
+}
+
+.btn {
+    text-decoration: none;
+    color: #00060c;
+    padding: 0.5em 1em;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #007BFF;
+}
+
+/* Container Styles */
+.container {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* About Me Section Styles */
+.about-me {
+    text-align: center;
+}
+
+.about-me h2 {
+    font-size: 2em;
+    color: #4d5257;
+    margin-bottom: 1em;
+}
+
+.about-me .content {
+    text-align: left;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4d5257;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2em;
+}
+
+/* Additional styles for the achievements section */
+
+section {
+    width: 80%;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6b7a8f;
+}
+section p {
+    margin: 5px 0;
+    color: #555;
+}
+section ul {
+    margin-top: 10px;
+}
+section li {
+    margin-bottom: 5px;
+}
+section hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid #333;
+}
+
+/*Additional styles for the education section*/
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6b7a8f
+}
+section p {
+    margin: 5px 0;
+    color: #555;
+}
+section hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid #333;
+}
+
+.education-logo {
+    width: 80px; /* Ubah lebar logo */
+    height: auto; /* Atur tinggi agar proporsional */
+    display: block; /* Agar logo berada di tengah */
+    margin: 0 auto 10px; /* Atur margin agar ada jarak antara logo dan teks */
+}
+
+/* Experience Section Styles */
+.experience-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+.experience-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.experience-section h1 {
+    color: #6b7a8f;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.experience-entry {
+    display: flex;
+    align-items: flex-start;
+}
+.company-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.experience-details {
+    flex-grow: 1;
+}
+.experience-section h3 {
+    margin-top: 30px;
+    color: #4d5257;
+    font-size: 24px;
+}
+.experience-section p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+}
+.experience-section ul {
+    padding-left: 20px;
+}
+.experience-section li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+.experience-section hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+/*Additional styles for the homepage section*/
+.about-me:hover {
+    transform: translateY(-5px);
+}
+
+.homepage-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.homepage-title::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #4d5257;
+    bottom: -10px;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.homepage-title:hover::after {
+    transform: scaleX(1);
+}
+
+.sub-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4d5257;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-info h3 {
+    margin-bottom: 0.5em;
+    color: #4d5257;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin: 0.5em 0;
+    font-size: 1.1em;
+}
+
+.contact-info i {
+    margin-right: 0.5em;
+    color: #4d5257;
+}
+
+
+/* Skills Section Styles */
+.skills-box {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.skill {
+    margin-bottom: 1em;
+}
+
+.skill-name {
+    font-size: 1.5em;
+    color: #4d5257;
+}
+
+.skill-bar {
+    background-color: #eee;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 0.5em;
+}
+
+.skill-progress {
+    background-color: #0c0c0c;
+    height: 100%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 0.9em; /* Reduced font size */
+
+}
+
+/* Languages Section Styles */
+.languages-box {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.language {
+    margin-bottom: 1em;
+}
+
+.language-name {
+    font-size: 1.5em;
+    color: #4d5257;
+}
+
+.language-bar {
+    background-color: #eee;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 0.5em;
+}
+
+.language-progress {
+    background-color: #0c0c0c;
+    height: 100%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 0.9em; /* Reduced font size */
+
+}
